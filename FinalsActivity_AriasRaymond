@@ -1,0 +1,78 @@
+Activity 1: 
+Task: Display your name and course 
+
+<?php
+echo "Name: Raymond B. Arias ";
+print "Course: BSIT";
+?>
+
+Activity 2:
+Task: Display 3 different messages
+
+<?php
+echo "Good Day!";
+echo  "Learn this PHP.";
+echo  "Goodluck in coding!" ;
+?>
+
+Activity 3:
+Task: Declaring Variables
+
+<?php
+$name = "Raymond"; 
+$age = "22";
+echo "Name:" .$name."  ";
+echo "Age:" . $age;
+?>
+
+Activity 4:
+Task: Variable Rules
+
+<?php
+$name = "Ana";
+$age = 18;
+echo $age;
+?>
+
+Activity 5:
+Task: Perform Operations
+
+<?php
+$a = 10;
+$b = 3;
+echo "Addition: " . ($a + $b) . " ";
+echo "Subtraction: " . ($a - $b) . " ";
+echo "Multiplication: " . ($a * $b) . " ";
+echo "Division: " . ($a / $b);
+?>
+
+Activity 6:
+Task: Predict the output
+
+<?php
+$x = 5;
+$x += 3;
+echo $x;
+?>
+
+Activity 7:
+Task: Check Conditions
+
+<?php
+$a = 10;
+$b = 5;
+var_dump($a > $b);
+var_dump($a == $b);
+?>
+
+Mini Project 
+Task: Create a Simple Calculator 
+
+<?php
+$num1 = 8;
+$num2 = 4;
+echo "Sum: " . ($num1 + $num2) . " ";
+echo "Difference: " . ($num1 - $num2) . " ";
+echo "Product: " . ($num1 * $num2) . " ";
+echo"Quotient: " . ($num1/$num2); 
+?>
