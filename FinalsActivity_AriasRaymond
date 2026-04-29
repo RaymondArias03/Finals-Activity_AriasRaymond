@@ -1,78 +1,190 @@
-Activity 1: 
-Task: Display your name and course 
+Activity 1:
 
-<?php
-echo "Name: Raymond B. Arias ";
-print "Course: BSIT";
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Output</title>
+</head>
+<body>
+    <?php
+        echo "Name: Raymond B. Arias  <br>";
+        echo "Course: BSIT-1A";
+    ?>
+
+    <h5>Guide Questions:</h5>
+    <p>1. What symbol is used to end a PHP statement?</p>
+    <p>ANSWER: Semicolon (;)</p><br>
+
+    <p>2. Which is faster: echo or print?</p>
+    <p>ANSWER: echo is faster than print.</p>
+
+</body>
+</html>
 
 Activity 2:
-Task: Display 3 different messages
 
-<?php
-echo "Good Day!";
-echo  "Learn this PHP.";
-echo  "Goodluck in coding!" ;
-?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Outputs</title>
+</head>
+
+<body>
+
+    <?php
+    echo "Good Day!<br>";
+    echo "Let's Learn PHP.<br>";
+    echo "GoodLuck in Coding!";
+    ?>
+
+</body>
+
+</html>
 
 Activity 3:
-Task: Declaring Variables
 
-<?php
-$name = "Raymond"; 
-$age = "22";
-echo "Name:" .$name."  ";
-echo "Age:" . $age;
-?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Declaring Variables</title>
+</head>
+
+<body>
+    <?php
+    $name = "Raymond";
+    $age = 22;
+
+    echo "Name: " . $name . "<br>";
+    echo "Age: " . $age . "<br>";
+    ?>
+</body>
+
+</html>
 
 Activity 4:
-Task: Variable Rules
 
-<?php
-$name = "Ana";
-$age = 18;
-echo $age;
-?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic Operators</title>
+</head>
+
+<body>
+    <?php
+    $name = "Ana";
+    $age = 18;
+    echo $age;
+    ?>
+</body>
+
+</html>
 
 Activity 5:
-Task: Perform Operations
 
-<?php
-$a = 10;
-$b = 3;
-echo "Addition: " . ($a + $b) . " ";
-echo "Subtraction: " . ($a - $b) . " ";
-echo "Multiplication: " . ($a * $b) . " ";
-echo "Division: " . ($a / $b);
-?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic Operators</title>
+</head>
+
+<body>
+    <?php
+    $a = 33;
+    $b = 13;
+
+    echo "Addition: " . ($a + $b) . "<br>";
+    echo "Subtraction: " . ($a - $b) . "<br>";
+    echo "Multiplication: " . ($a * $b) . "<br>";
+    echo "Division: " . ($a / $b);
+    ?>
+
+</body>
+
+</html>
 
 Activity 6:
-Task: Predict the output
 
-<?php
-$x = 5;
-$x += 3;
-echo $x;
-?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Operators</title>
+</head>
+
+<body>
+    <?php
+    $x = 23;
+    $x += 15;
+    echo $x;
+    ?>
+
+</body>
+
+</html>
 
 Activity 7:
-Task: Check Conditions
 
-<?php
-$a = 10;
-$b = 5;
-var_dump($a > $b);
-var_dump($a == $b);
-?>
+<!DOCTYPE html>
+<html lang="en">
 
-Mini Project 
-Task: Create a Simple Calculator 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison Operators</title>
+</head>
 
-<?php
-$num1 = 8;
-$num2 = 4;
-echo "Sum: " . ($num1 + $num2) . " ";
-echo "Difference: " . ($num1 - $num2) . " ";
-echo "Product: " . ($num1 * $num2) . " ";
-echo"Quotient: " . ($num1/$num2); 
-?>
+<body>
+    <?php
+    $a = 75;
+    $b = 10;
+
+    var_dump($a > $b);
+    echo "<br>";
+    var_dump($a == $b);
+    ?>
+
+</body>
+
+</html>
+
+Mini Project:
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+</head>
+
+<body>
+    <?php
+    $num1 = 240;
+    $num2 = 165;
+
+    echo "Sum: " . ($num1 + $num2) . "<br>";
+    echo "Difference: " . ($num1 - $num2) . "<br>";
+    echo "Product: " . ($num1 * $num2) . "<br>";
+    echo "Quotient: " . ($num1 / $num2);
+    ?>
+
+</body>
+
+</html>
